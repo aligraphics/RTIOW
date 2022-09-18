@@ -1,0 +1,3 @@
+/Users/alifayed/CLionProjects/RayTracer/CMakeFiles/RayTracer.dir
+/Users/alifayed/CLionProjects/RayTracer/CMakeFiles/edit_cache.dir
+/Users/alifayed/CLionProjects/RayTracer/CMakeFiles/rebuild_cache.dir
