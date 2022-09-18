@@ -3,4 +3,4 @@ project(RayTracer)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(RayTracer src/Main.cpp src/Vec3.cpp src/Vec3.hpp)
+add_executable(RayTracer src/Main.cpp src/Vec3.cpp src/Vec3.hpp src/Color.hpp)
