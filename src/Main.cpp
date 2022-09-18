@@ -9,6 +9,7 @@ int main()
 
     for(int32_t j = imageHeight-1; j >= 0; j--) // 255
     {
+        std::cerr << "\rScanlines remaining: " << j << ' ' << std::flush;
         for(uint32_t i = 0; i < imageWidth; i++)
         {
             auto r = static_cast<double>(i) / (imageWidth-1);
@@ -22,5 +23,7 @@ int main()
             std::cout << ir << ' ' << ig << ' ' << ib << '\n';
         }
     }
+
+    std::cerr << "\nDone!\n";
     return 0;
 }
